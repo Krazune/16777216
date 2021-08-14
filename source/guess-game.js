@@ -38,7 +38,9 @@
 
 			let correctGuess = false;
 
-			if (color.getRed() == this._currentColor.getRed() && color.getGreen() == this._currentColor.getGreen() && color.getBlue() == this._currentColor.getBlue())
+			if (color.getRed() == this._currentColor.getRed() &&
+				color.getGreen() == this._currentColor.getGreen() &&
+				color.getBlue() == this._currentColor.getBlue())
 			{
 				++this._correctGuesses;
 
