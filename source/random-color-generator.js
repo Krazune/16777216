@@ -25,10 +25,7 @@
 
 		RandomColorGenerator.prototype._getRandomChannelValue = function()
 		{
-			const minimum = 0;
-			const maximum = 255;
-
-			return Math.floor(Math.random() * (maximum - minimum  + 1)) + minimum ;
+			return Math.floor(Math.random() * 256);
 		};
 
 		return RandomColorGenerator;
